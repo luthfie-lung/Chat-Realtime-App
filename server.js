@@ -17,6 +17,6 @@ io.on("connection", (socket) => {
   });
 });
 
-http.listen(3000, () => {
-  console.log("Server jalan di http://0.0.0.0:3000");
+http.listen(3000,0.0.0.0 () => {
+  console.log("Server jalan di http://localhost:3000");
 });
